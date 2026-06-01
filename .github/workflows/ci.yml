@@ -12,6 +12,9 @@ jobs:
   build:
     name: Build StockGuide Frontend
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: stock-guide-frontend
 
     steps:
       - name: Checkout source code
