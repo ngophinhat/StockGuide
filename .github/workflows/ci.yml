@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - main
+      - Header
   pull_request:
     branches:
       - main
-
+      - Header
 jobs:
   build:
     name: Build StockGuide Frontend
