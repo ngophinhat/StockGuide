@@ -8,7 +8,7 @@ function Header() {
         <a href="#risk">Rủi ro</a>
         <a href="#faq">FAQ</a>
         <a href="#subscribe" className="nav-button">
-          Nhận tài liệu mới
+          Nhận tài liệu
         </a>
       </nav>
     </header>
